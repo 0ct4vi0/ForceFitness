@@ -1,0 +1,59 @@
+// @import "../utilities/mixin.scss";
+
+section{    
+    .slider-Box{
+        display: flex;
+        overflow: hidden;
+        flex-wrap: nowrap;
+        padding-top: 3em;
+        
+        .elemento{
+            flex: 1 0 auto;
+            margin: 0em 0 1em 0;
+            flex-direction: column;
+        
+            img{
+                position: relative;
+                height: 400px;
+                width: 800px;
+                object-fit: cover;
+            }
+
+            .texto{
+                transform: translate(40%, -460%);
+                color: rgb(255, 255, 255); /* Ajusta el color del texto según sea necesario */
+                font-size: 24px; /* Ajusta el tamaño de la fuente según sea necesario */
+                font-weight: 600;
+                text-align: center;
+                width: 380px;
+                height: 50px;
+                
+                b{
+                    color: red;
+                }
+            }
+        }
+    }
+    .btn{
+        display: flex;
+        position:absolute;
+        top: 60%; /* Ajusta según sea necesario */
+        left: 50%; /* Ajusta según sea necesario */
+        transform: translate(-40%, 200px);
+        
+        .btn_item{
+            background-color:rgb(255, 255, 255);
+            width: 10px;
+            height: 10px;
+            border-radius: 55%;
+            margin: 0em 0.8em 1.3em;
+            align-items: center;
+        }
+        .btn_item:hover{
+            background-color: red;
+            transition: 0.4s ;
+            width: 13px;
+            height: 13px;
+        }
+    }
+}

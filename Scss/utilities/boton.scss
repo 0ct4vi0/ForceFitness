@@ -1,0 +1,14 @@
+
+.BtnInicio{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 5%;
+    border:  2px solid black;
+
+        :hover{
+            border: 2px solid red;
+        }
+    
+
+}
