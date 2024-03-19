@@ -1,4 +1,4 @@
-// @import "../utilities/mixin.scss";
+@import "../utilities/mixin.scss";
 
 section{    
     .slider-Box{
@@ -6,6 +6,10 @@ section{
         overflow: hidden;
         flex-wrap: nowrap;
         padding-top: 3em;
+
+        @include mb{
+            padding-top: 1em;
+        }
         
         .elemento{
             flex: 1 0 auto;
@@ -17,6 +21,12 @@ section{
                 height: 400px;
                 width: 800px;
                 object-fit: cover;
+
+                @include mb{
+                    width: 100%;
+                   
+                    
+                }
             }
 
             .texto{
@@ -28,6 +38,10 @@ section{
                 width: 380px;
                 height: 50px;
                 
+                @include mb{
+                    transform: translate(3.5%, -480%);
+                }
+
                 b{
                     color: red;
                 }
@@ -40,6 +54,11 @@ section{
         top: 60%; /* Ajusta según sea necesario */
         left: 50%; /* Ajusta según sea necesario */
         transform: translate(-40%, 200px);
+
+        @include mb {
+            transform: translate(-5%, 250px);
+
+        }
         
         .btn_item{
             background-color:rgb(255, 255, 255);

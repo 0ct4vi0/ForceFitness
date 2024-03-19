@@ -1,7 +1,8 @@
+@import "mixin.scss";
 
 .BtnInicio{
     position: fixed;
-    bottom: 2rem;
+    bottom: 1rem;
     right: 2rem;
     width: 5%;
     border:  2px solid black;
@@ -9,6 +10,11 @@
         :hover{
             border: 2px solid red;
         }
-    
+    @include mb{
+        width: 3em;
+        bottom: 1.5rem;
+        right: 1.5rem;
+
+    }
 
 }

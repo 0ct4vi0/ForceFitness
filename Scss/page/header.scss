@@ -1,3 +1,5 @@
+@import "../utilities/mixin.scss";
+    
 header{
     .navbar{
         display: flex;
@@ -11,6 +13,10 @@ header{
         justify-content: space-around;
         z-index: 3;   
 
+        @include mb{
+            height: 13%;
+            
+        }
         h1{
             font-size: 18px;
             font-weight: 1000;
@@ -24,6 +30,11 @@ header{
                 display: inline-block;
                 padding: 0 20px;
 
+                @include mb{
+                    display: block;
+                    font-size: 16px;
+
+                }
             }
 
             li:hover{
@@ -36,6 +47,10 @@ header{
             padding: 0%;
             margin: 1%;
             display: inline-block; /* Mostrar elementos en línea */
+            
+            @include mb {
+                width: 2.5em;
+            }
         }
     }
 }

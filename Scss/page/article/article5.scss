@@ -1,0 +1,31 @@
+@import "../../utilities/mixin.scss";
+
+.articulo_5{
+    margin-top: -200px;
+
+    .Com_Container{
+        margin:3em 0.5em;   
+        background-color: black;
+        color: white;
+        display: flex;
+    
+        li{
+            margin: 1.3em;
+            color: red;
+            font-size: 18px;
+
+            p{
+                margin:0.5em;
+                width: 90%;
+                color: white;
+                font-size: 13px;
+            }
+        }
+
+        @include mb{
+            width:  300px;
+            margin: 1em;
+
+        }
+    }
+}

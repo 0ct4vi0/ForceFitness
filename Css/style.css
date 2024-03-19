@@ -86,6 +86,11 @@ header .navbar {
   justify-content: space-around;
   z-index: 3;
 }
+@media only screen and (max-width: 480px) {
+  header .navbar {
+    height: 13%;
+  }
+}
 header .navbar h1 {
   font-size: 18px;
   font-weight: 1000;
@@ -98,6 +103,12 @@ header .navbar ul li {
   display: inline-block;
   padding: 0 20px;
 }
+@media only screen and (max-width: 480px) {
+  header .navbar ul li {
+    display: block;
+    font-size: 16px;
+  }
+}
 header .navbar ul li:hover {
   color: red;
 }
@@ -107,12 +118,22 @@ header .navbar .redes {
   margin: 1%;
   display: inline-block; /* Mostrar elementos en línea */
 }
+@media only screen and (max-width: 480px) {
+  header .navbar .redes {
+    width: 2.5em;
+  }
+}
 
 section .slider-Box {
   display: flex;
   overflow: hidden;
   flex-wrap: nowrap;
   padding-top: 3em;
+}
+@media only screen and (max-width: 480px) {
+  section .slider-Box {
+    padding-top: 1em;
+  }
 }
 section .slider-Box .elemento {
   flex: 1 0 auto;
@@ -125,6 +146,11 @@ section .slider-Box .elemento img {
   width: 800px;
   object-fit: cover;
 }
+@media only screen and (max-width: 480px) {
+  section .slider-Box .elemento img {
+    width: 100%;
+  }
+}
 section .slider-Box .elemento .texto {
   transform: translate(40%, -460%);
   color: rgb(255, 255, 255); /* Ajusta el color del texto según sea necesario */
@@ -133,6 +159,11 @@ section .slider-Box .elemento .texto {
   text-align: center;
   width: 380px;
   height: 50px;
+}
+@media only screen and (max-width: 480px) {
+  section .slider-Box .elemento .texto {
+    transform: translate(3.5%, -480%);
+  }
 }
 section .slider-Box .elemento .texto b {
   color: red;
@@ -143,6 +174,11 @@ section .btn {
   top: 60%; /* Ajusta según sea necesario */
   left: 50%; /* Ajusta según sea necesario */
   transform: translate(-40%, 200px);
+}
+@media only screen and (max-width: 480px) {
+  section .btn {
+    transform: translate(-5%, 250px);
+  }
 }
 section .btn .btn_item {
   background-color: rgb(255, 255, 255);
@@ -190,6 +226,12 @@ section .btn .btn_item:hover {
   margin: 0em 0em 0em 2.5em;
   padding: 2%;
   font-size: 11.5px;
+}
+@media only screen and (max-width: 480px) {
+  .articulo_1 .container {
+    width: 300px;
+    margin: 0em;
+  }
 }
 
 .articulo_2 {
@@ -241,32 +283,93 @@ section .btn .btn_item:hover {
 }
 
 .articulo_3 {
-  margin-top: -26em;
-}
-@media only screen and (min-width: 480px) {
-  .articulo_3 {
-    margin: 1.3em 4%;
-    height: 50%;
-  }
-}
-.articulo_3 .IMG-Container {
-  display: grid;
-  grid-template-columns: repeat(4, 140px);
-  margin: 0em 3.3em;
+  margin-top: -17em;
 }
 .articulo_3 .IMG-Container ul {
   display: grid;
-  grid-template-columns: repeat(4, 100%);
-  gap: 3em;
+  grid-template-columns: repeat(4, 150px);
+  gap: 2em;
+}
+@media only screen and (max-width: 480px) {
+  .articulo_3 .IMG-Container ul {
+    grid-template-columns: repeat(1, 150px);
+    gap: 0.5em;
+  }
 }
 .articulo_3 .IMG-Container img {
-  margin: 1.5em;
+  margin: 2.5em;
   width: 100%;
+  width: 250px;
+  height: 150px;
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
   .articulo_3 .IMG-Container img {
-    width: 650px;
-    height: 250px;
+    margin: 1em;
+  }
+}
+
+.articulo_4 img {
+  width: 350px;
+  height: 20%;
+  margin: 0.5em;
+  margin-left: auto;
+  position: relative;
+}
+@media only screen and (max-width: 480px) {
+  .articulo_4 img {
+    margin: 0em;
+  }
+}
+.articulo_4 h1 {
+  font-size: 30px;
+  font-weight: 600;
+  transform: translate(19%, -370px);
+  width: 350px;
+}
+.articulo_4 h1 b {
+  color: red;
+}
+.articulo_4 .Prof_container {
+  display: flex;
+  margin: 0.3em;
+  height: 25%;
+  width: 400px;
+  transform: translate(0%, -320px);
+}
+@media only screen and (max-width: 480px) {
+  .articulo_4 .Prof_container {
+    width: 50%;
+  }
+}
+.articulo_4 .Prof_container p {
+  font-size: 16.5px;
+  padding: 2%;
+}
+
+.articulo_5 {
+  margin-top: -200px;
+}
+.articulo_5 .Com_Container {
+  margin: 3em 0.5em;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.articulo_5 .Com_Container li {
+  margin: 1.3em;
+  color: red;
+  font-size: 18px;
+}
+.articulo_5 .Com_Container li p {
+  margin: 0.5em;
+  width: 90%;
+  color: white;
+  font-size: 13px;
+}
+@media only screen and (max-width: 480px) {
+  .articulo_5 .Com_Container {
+    width: 300px;
+    margin: 1em;
   }
 }
 
@@ -296,13 +399,20 @@ footer .contactos a {
 
 .BtnInicio {
   position: fixed;
-  bottom: 2rem;
+  bottom: 1rem;
   right: 2rem;
   width: 5%;
   border: 2px solid black;
 }
 .BtnInicio :hover {
   border: 2px solid red;
+}
+@media only screen and (max-width: 480px) {
+  .BtnInicio {
+    width: 3em;
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

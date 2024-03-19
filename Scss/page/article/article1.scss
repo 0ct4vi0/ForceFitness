@@ -34,5 +34,10 @@
                     font-size: 11.5px
                 }
             }
+
+            @include mb{
+                width: 300px;
+                margin:0em ;
+            }
         }
  }
