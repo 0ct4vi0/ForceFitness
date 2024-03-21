@@ -4,14 +4,14 @@
     position: fixed;
     bottom: 1rem;
     right: 2rem;
-    width: 5%;
+    width: 4.5%;
     border:  2px solid black;
 
         :hover{
             border: 2px solid red;
         }
     @include mb{
-        width: 3em;
+        width: 3.5em;
         bottom: 1.5rem;
         right: 1.5rem;
 

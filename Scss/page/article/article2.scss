@@ -8,42 +8,60 @@
     img{
         position: relative;
         width: 100%;
-        height: 450px;
+        height: 650px;
+
+        @include mb{
+            height: 30em;
+        }
     }
 
     h2{
         text-align: center;
         color: red;
         margin: 0.7em;
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 700;
-        transform: translate(0px,-430px);
+        transform: translate(0px,-600px);
+
+        @include mb{
+            font-size:28px ;
+            width: 3em;
+            transform: translate(134%,-400px);
+
+        }
 
     }
     
     .act_container{
         display: grid;
-        transform: translate(0px,-390px);
-        grid-template-columns: repeat(3,32%);
-        grid-template-rows: repeat(3,45%);
-        margin-left: 5%;
+        transform: translate(0px,-550px);
+        grid-template-columns: repeat(3,30%);
+        grid-template-rows: repeat(3,60%);
+        margin-left: 8.5%;
     
         li{
             padding-top: 2em;
             border:2px solid red;
             text-align: center;
-            font-size: 20px;
+            font-size: 25px;
             color:rgb(228, 17, 17);
 
             .button{
                 padding:7px;
                 margin: -0.5em  1.5em;
-                width: 90px;
-                height:40px;
+                width: 100px;
+                height:50px;
                 background-color: rgb(0, 0, 0);
                 border-radius: 18% ;
                 border: 3px solid rgb(255, 0, 0);
                 align-items: center;
+
+                @include mb{
+                        padding: 6px;
+                        margin: -0.5em  0.5em;
+                        width: 80px;
+                        height: 40px;
+                }
             }
             .button:hover{
                 border: 3px solid white;
@@ -51,6 +69,16 @@
                 color: white;
                 transition: 0.5s;
             }
+
+            @include mb{
+                font-size: 18px;
+            }
+        }
+
+        @include mb {
+            transform: translate(0px,-380px);
+            grid-template-rows: repeat(3,45%);
+            margin-left: 1.9em;
         }
     }
 }

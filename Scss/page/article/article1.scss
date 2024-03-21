@@ -10,8 +10,9 @@
 
         .container{
             display: inline-block;
-            transform: translate(0px,-30%);    
-            width: 600px;
+            transform: translate(0px,-55%);    
+            width: 1200px;
+            height: 400px;
             margin: 0em 0em 0.4em 5em;
                
             .Act-Item{
@@ -20,24 +21,38 @@
                 text-align: center;
                        
                 h3{
-                    font-size: 20px;
+                    font-size: 27px;
                     color: red;
                     padding: 2%;
+
+                    @include mb{
+                        font-size: 17px;
+                    }
                 }
         
                 p{
                     justify-content: center;
                     color: white;
-                    width: 90%;
-                    margin:0em 0em 0em 2.5em;
+                    // background-color: red;
+                    width: 70%;
+                    margin-left: 8.5em;
                     padding: 2%;
-                    font-size: 11.5px
+                    font-size: 20px;
+
+                    @include mb{
+                        margin:2em;
+                        font-size: 12px;
+                        width: 80%;
+                        padding: 3%;
+                    }
                 }
             }
 
             @include mb{
+                transform: translate(0px,-9%); 
                 width: 300px;
-                margin:0em ;
+                height: 50%;
+                margin-left: 2.5em;
             }
         }
  }

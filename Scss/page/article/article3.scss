@@ -3,33 +3,34 @@
 .articulo_3{
     margin-top: -17em;
 
-    // @include mb{
-    //     margin: 1.3em  4%;
-    //     height: 50%;
-    // }
     .IMG-Container{
+
+        @include mb{
+            // background-color: black;
+            width: 50%;
+            margin-left: 4.8em;
+        }
 
             ul{    
                 display: grid;
-                grid-template-columns: repeat(4,150px);
-                // grid-template-rows: 50px;
-                gap:2em;
+                grid-template-columns: repeat(4,200px);
+                gap:4em;
 
                 @include mb{
-                    grid-template-columns: repeat(1,150px);
-                    gap: 0.5em;
+                    grid-template-columns: repeat(1,200px);
+                    gap: 0em;
                 }
             }
         
 
         img{
-            margin: 2.5em;
+            margin-left: 12em;
             width: 100%;
-            width: 250px;
-            height:150px;
+            height:200px;
 
             @include mb{
                 margin:1em;
+                height: 200px;
                 
             }
         }

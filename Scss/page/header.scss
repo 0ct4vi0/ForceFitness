@@ -10,28 +10,37 @@ header{
         width: 100%;
         height: 15%;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         z-index: 3;   
 
         @include mb{
-            height: 13%;
-            
+            height: 13%;  
+            margin: 0em;
+            justify-content: space-evenly;
         }
+
         h1{
-            font-size: 18px;
+            font-size: 28px;
+            margin: 1em;
             font-weight: 1000;
+
+            @include mb{
+                font-size: 20px;
+            }
         }
 
         ul{
             margin: 0.3em;
 
             li{
-                font-size: 13px;
+                font-size: 20px;
+                margin: 1em;
                 display: inline-block;
                 padding: 0 20px;
 
                 @include mb{
                     display: block;
+                    margin: 0em;
                     font-size: 16px;
 
                 }
