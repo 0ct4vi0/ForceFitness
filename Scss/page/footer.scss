@@ -5,6 +5,12 @@ footer{
    margin: -19px 0px;
    width: 100%;
    height: 100%;
+
+   @include mb{
+    margin-bottom: -20px;
+    margin-top: 15px;
+
+   }
     
 
     .contactos{

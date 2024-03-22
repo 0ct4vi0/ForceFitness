@@ -58,7 +58,8 @@ header{
             display: inline-block; /* Mostrar elementos en línea */
             
             @include mb {
-                width: 2.5em;
+                width: 2em;
+
             }
         }
     }

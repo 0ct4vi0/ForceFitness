@@ -13,7 +13,7 @@
             transform: translate(0px,-55%);    
             width: 1200px;
             height: 400px;
-            margin: 0em 0em 0.4em 5em;
+            margin: 0em 0em 0em 4.4em;
                
             .Act-Item{
                 margin: 0 1em;
@@ -26,33 +26,32 @@
                     padding: 2%;
 
                     @include mb{
-                        font-size: 17px;
+                        font-size: 24px;
                     }
                 }
         
                 p{
                     justify-content: center;
                     color: white;
-                    // background-color: red;
                     width: 70%;
                     margin-left: 8.5em;
                     padding: 2%;
                     font-size: 20px;
 
                     @include mb{
-                        margin:2em;
-                        font-size: 12px;
+                        margin:0em 2em;
+                        font-size: 16px;
                         width: 80%;
-                        padding: 3%;
+                        // padding: 3%;
                     }
                 }
             }
 
             @include mb{
-                transform: translate(0px,-9%); 
-                width: 300px;
+                transform: translate(0px,-7%); 
+                width: 340px;
                 height: 50%;
-                margin-left: 2.5em;
+                margin-left: 2em;
             }
         }
  }
