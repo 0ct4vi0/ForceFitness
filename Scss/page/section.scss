@@ -59,7 +59,8 @@ section{
         transform: translate(-45%, 470px);
 
         @include mb {
-            transform: translate(-50%, -26%);
+            transform: translate(-50%, -476%);
+            // z-index: 3;
         }
         
         .btn_item{
