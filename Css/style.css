@@ -191,7 +191,7 @@ section .btn {
 }
 @media only screen and (max-width: 420px) {
   section .btn {
-    transform: translate(-50%, -476%);
+    transform: translate(-50%, -46%);
   }
 }
 section .btn .btn_item {
@@ -409,7 +409,7 @@ section .btn .btn_item:hover {
   .articulo_4 h1 {
     width: 280px;
     margin: 1em;
-    transform: translate(23%, -455px);
+    transform: translate(23%, -450px);
     font-size: 26px;
   }
 }
@@ -445,7 +445,7 @@ section .btn .btn_item:hover {
 }
 @media only screen and (max-width: 420px) {
   .articulo_5 {
-    margin-top: -80px;
+    margin-top: -70px;
   }
 }
 .articulo_5 .Com_Container {
