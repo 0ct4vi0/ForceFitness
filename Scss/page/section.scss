@@ -40,7 +40,7 @@ section{
                 height: 50px;
                 
                 @include mb{
-                    transform: translate(15%, -400%);
+                    transform: translate(15%, -425%);
                     font-size: 27px;
                     width: 300px;
                 }
@@ -59,7 +59,7 @@ section{
         transform: translate(-45%, 470px);
 
         @include mb {
-            transform: translate(-50%, 0%);
+            transform: translate(-50%, -26%);
         }
         
         .btn_item{

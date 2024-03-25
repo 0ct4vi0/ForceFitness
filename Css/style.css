@@ -174,7 +174,7 @@ section .slider-Box .elemento .texto {
 }
 @media only screen and (max-width: 420px) {
   section .slider-Box .elemento .texto {
-    transform: translate(15%, -400%);
+    transform: translate(15%, -425%);
     font-size: 27px;
     width: 300px;
   }
@@ -191,7 +191,7 @@ section .btn {
 }
 @media only screen and (max-width: 420px) {
   section .btn {
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, -26%);
   }
 }
 section .btn .btn_item {
@@ -263,7 +263,7 @@ section .btn .btn_item:hover {
 }
 @media only screen and (max-width: 420px) {
   .articulo_1 .container {
-    transform: translate(0px, -7%);
+    transform: translate(0px, -6%);
     width: 340px;
     height: 50%;
     margin-left: 2em;
@@ -335,7 +335,7 @@ section .btn .btn_item:hover {
   border: 3px solid white;
   background-color: red;
   color: white;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 @media only screen and (max-width: 420px) {
   .articulo_2 .act_container li {
@@ -409,8 +409,8 @@ section .btn .btn_item:hover {
   .articulo_4 h1 {
     width: 280px;
     margin: 1em;
-    transform: translate(26%, -480px);
-    font-size: 27px;
+    transform: translate(24%, -480px);
+    font-size: 26px;
   }
 }
 .articulo_4 .Prof_container {
@@ -445,7 +445,7 @@ section .btn .btn_item:hover {
 }
 @media only screen and (max-width: 420px) {
   .articulo_5 {
-    margin-top: -115px;
+    margin-top: -100px;
   }
 }
 .articulo_5 .Com_Container {
@@ -504,8 +504,8 @@ footer .contactos {
 }
 footer .contactos p {
   color: white;
-  width: 200px;
-  transform: translate(90px, 20px);
+  width: 230px;
+  transform: translate(90px, 26px);
 }
 footer .contactos a {
   margin: 1em;
