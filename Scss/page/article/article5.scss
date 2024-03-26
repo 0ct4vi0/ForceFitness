@@ -20,6 +20,10 @@
             width:  300px;
             margin:0em 3.4em;
         }
+
+        @include mb2{
+            margin:0em 9%;
+        }
     
         li{
             margin: 1.3em;

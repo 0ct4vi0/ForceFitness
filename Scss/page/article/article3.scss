@@ -33,6 +33,10 @@
                 height: 150px;
                 
             }
+
+            @include mb2{ 
+                margin-left: 53%;
+            }
         }
     }
 }
