@@ -424,13 +424,13 @@ section .btn .btn_item:hover {
   .articulo_4 h1 {
     width: 280px;
     margin: 1em;
-    transform: translate(27%, -473px);
+    transform: translate(20%, -473px);
     font-size: 26px;
   }
 }
 @media only screen and (max-width: 375px) {
   .articulo_4 h1 {
-    transform: translate(20%, -420px);
+    transform: translate(21%, -420px);
   }
 }
 .articulo_4 .Prof_container {
